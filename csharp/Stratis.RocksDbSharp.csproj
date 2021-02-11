@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1;net5.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <OutputType>Library</OutputType>
     <LangVersion>latest</LangVersion>
     <PackageId>RocksDB</PackageId>
@@ -34,6 +34,9 @@
   <ItemGroup>
     <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/linux-x64/native/librocksdb.so" Link="librocksdb.so" Pack="true" PackagePath="runtimes/linux-x64/native/librocksdb.so" />
     <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/osx-x64/native/librocksdb.dylib" Link="librocksdb.dylib" Pack="true" PackagePath="runtimes/osx-x64/native/librocksdb.dylib" />
+    <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/osx-x64/native/liblz4.1.dylib" Link="liblz4.1.dylib" Pack="true" PackagePath="runtimes/osx-x64/native/liblz4.1.dylib" />
+    <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/osx-x64/native/libsnappy.1.dylib" Link="libsnappy.1.dylib" Pack="true" PackagePath="runtimes/osx-x64/native/libsnappy.1.dylib" />
+    <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/osx-x64/native/libzstd.1.dylib" Link="libzstd.1.dylib" Pack="true" PackagePath="runtimes/osx-x64/native/libzstd.1.dylib" />
     <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/win-x64/native/rocksdb.dll" Link="librocksdb.so" Pack="true" PackagePath="runtimes/win-x64/native/rocksdb.dll" />
   </ItemGroup>
 
