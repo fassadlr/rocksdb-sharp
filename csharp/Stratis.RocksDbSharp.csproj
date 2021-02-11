@@ -5,15 +5,15 @@
     <OutputType>Library</OutputType>
     <LangVersion>latest</LangVersion>
     <PackageId>RocksDB</PackageId>
-    <Authors>Curiosity GmbH, Warren Falk</Authors>
-    <Company>Curiosity GmbH, Warren Falk</Company>
-    <Description>.NET bindings for RocksDB, including the matching native libraries for Linux, Windows and macOS.</Description>
+    <Authors>Stratis Group Ltd., Curiosity GmbH, Warren Falk</Authors>
+    <Company>Stratis Group Ltd., Curiosity GmbH, Warren Falk</Company>
+    <Description>Stratis fork of .NET bindings for RocksDB, including the matching native libraries for Linux, Windows and (fixed) macOS compression runtimes.</Description>
     <PackageTags>rocksdb leveldb embedded database</PackageTags>
     <Copyright>(c) Copyright 2016 Warren Falk, (c) Copyright 2019 Curiosity GmbH</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
-    <Version>0.0.42</Version>
+    <Version>0.0.9-alpha</Version>
     <IncludeReferencedProjects>true</IncludeReferencedProjects>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PackageIcon>logo-128.png</PackageIcon>
