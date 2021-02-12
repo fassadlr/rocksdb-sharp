@@ -4,7 +4,7 @@
     <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <OutputType>Library</OutputType>
     <LangVersion>latest</LangVersion>
-    <PackageId>RocksDB</PackageId>
+    <PackageId>Stratis.RocksDB</PackageId>
     <Authors>Stratis Group Ltd., Curiosity GmbH, Warren Falk</Authors>
     <Company>Stratis Group Ltd., Curiosity GmbH, Warren Falk</Company>
     <Description>Stratis fork of .NET bindings for RocksDB, including the matching native libraries for Linux, Windows and (fixed) macOS compression runtimes.</Description>
