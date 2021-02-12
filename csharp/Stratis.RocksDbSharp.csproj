@@ -13,7 +13,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
-    <Version>0.0.9.2-alpha</Version>
+    <Version>0.0.9.3-alpha</Version>
     <IncludeReferencedProjects>true</IncludeReferencedProjects>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PackageIcon>logo-128.png</PackageIcon>
