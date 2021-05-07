@@ -13,7 +13,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
-    <Version>0.0.9.6-alpha</Version>
+    <Version>0.0.9.7-alpha</Version>
     <IncludeReferencedProjects>true</IncludeReferencedProjects>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PackageIcon>logo-128.png</PackageIcon>
@@ -43,6 +43,7 @@
     <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/linux-x64/native/librocksdb.so" Link="librocksdb.so" Pack="true" PackagePath="runtimes/linux-x64/native/librocksdb.so" />
     <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/linux-x64/native/libsnappy.so.1" Link="libsnappy.so.1" Pack="true" PackagePath="runtimes/linux-x64/native/libsnappy.so.1" />
     <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/linux-x64/native/libzstd.so.0" Link="libzstd.so.0" Pack="true" PackagePath="runtimes/linux-x64/native/libzstd.so.0" />
+    <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/linux-x64/native/libdl.so" Link="libdl.so" Pack="true" PackagePath="runtimes/linux-x64/native/libdl.so" />
     
     <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/win-x64/native/rocksdb.dll" Link="librocksdb.so" Pack="true" PackagePath="runtimes/win-x64/native/rocksdb.dll" />
   </ItemGroup>
